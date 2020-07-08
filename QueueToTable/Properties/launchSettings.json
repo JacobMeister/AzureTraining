@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "QueueToTable": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 31055,
+      "useSSL": false
+    }
+  }
+}

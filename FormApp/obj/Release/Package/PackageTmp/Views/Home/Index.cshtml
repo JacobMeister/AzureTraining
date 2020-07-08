@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<h4 style="color:purple">
+<b>Name:</b>  @ViewBag.Name
+</h4>
+<form action="/Home/Index" method="post">
+    <input type="text" name="name" />
+    <input type="submit" value="Register name" />
+</form>

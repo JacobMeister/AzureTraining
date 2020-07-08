@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h4 style="color:purple">
+    <b>Name:</b>  @ViewBag.Name
+</h4>
+
+<form action="/Home/Index" method="post" enctype="multipart/form-data">
+    <input type="text" name="name" />
+    <label for="photo">Photo:</label>
+    <input type="file" name="photo" />
+    <input type="submit" value="Register" />
+</form>
+
+
+@if (ViewBag.RegisteredPeople != null)
+{
+<table>
+    @foreach (var person in ViewBag.RegisteredPeople)
+    {
+    <tr>
+        <td>@person.Name</td>
+        <td><img src="@string.Concat("https://azuretrainingformapp.blob.core.windows.net/thumbnails/", person.Thumbnail)" /></td>
+    </tr>
+    }
+
+</table>
+}

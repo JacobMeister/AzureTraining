@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormApp", "FormApp\FormApp.csproj", "{1B561CE4-37B2-4647-8058-CCCD707E43DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueToTable", "QueueToTable\QueueToTable.csproj", "{1F370C14-24DC-4D4C-AC51-A13D660CC2BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B561CE4-37B2-4647-8058-CCCD707E43DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B561CE4-37B2-4647-8058-CCCD707E43DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B561CE4-37B2-4647-8058-CCCD707E43DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B561CE4-37B2-4647-8058-CCCD707E43DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F370C14-24DC-4D4C-AC51-A13D660CC2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F370C14-24DC-4D4C-AC51-A13D660CC2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F370C14-24DC-4D4C-AC51-A13D660CC2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F370C14-24DC-4D4C-AC51-A13D660CC2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32066B73-BBC3-47AC-9A8E-C9EA05E53012}
+	EndGlobalSection
+EndGlobal
