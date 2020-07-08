@@ -2,17 +2,11 @@
     ViewBag.Title = "Home Page";
 }
 
-<h4 style="color:purple">
-    <b>Name:</b>  @ViewBag.Name
-</h4>
-
 <form action="/Home/Index" method="post" enctype="multipart/form-data">
     <input type="text" name="name" />
-    <label for="photo">Photo:</label>
     <input type="file" name="photo" />
     <input type="submit" value="Register" />
 </form>
-
 
 @if (ViewBag.RegisteredPeople != null)
 {

@@ -43,7 +43,7 @@ namespace FormApp.Controllers
         [HttpPost]
         public ActionResult Index(string name, HttpPostedFileBase photo)
         {
-            if(photo == null)
+            if(photo == null || name == null)
             {
                 ViewBag.Name = "Er is iets mis gegaan, probeer het opnieuw";
                 return View();
